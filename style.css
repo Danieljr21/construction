@@ -171,6 +171,12 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+@media (max-width: 768px) {
+      .row.g-0.P-5 {
+        width: 100%; /* Or another appropriate value */
+      }
+    } 
+
 .row {
     .row {
         display: flex;
@@ -578,6 +584,20 @@ body {
 .icon-wrapper:hover .tooltip {
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+      section .about-hero,
+      section .about-hero > img {
+        width: 100%;
+        height: auto; /* Adjust height as needed */
+      }
+
+      .about-hero .about-text {
+        width: 90%; /* Example: Use a percentage for width */
+        height: auto; /* Adjust height as needed */
+        /* Adjust position (top, left, etc.) for smaller screens */
+      }
+    }
 
 
 
