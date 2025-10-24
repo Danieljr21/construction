@@ -171,11 +171,6 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-@media (max-width: 768px) {
-      .row.g-0.P-5 {
-        width: 100%; /* Or another appropriate value */
-      }
-    } 
 
 .row {
     .row {
@@ -250,7 +245,7 @@ body {
 }
 
 .concept-text {
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     font-size: 1.3rem;
     font-weight: bold;
     color: #333;
@@ -263,8 +258,7 @@ body {
     padding: 50px;
     border-radius: 0px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    margin-top: 200px;
-
+    margin-top: 100px;
 }
 
 .general-card img {
@@ -585,23 +579,6 @@ body {
   opacity: 1;
 }
 
-@media (max-width: 768px) {
-      section .about-hero,
-      section .about-hero > img {
-        width: 100%;
-        height: auto; /* Adjust height as needed */
-      }
-
-      .about-hero .about-text {
-        width: 90%; /* Example: Use a percentage for width */
-        height: auto; /* Adjust height as needed */
-        /* Adjust position (top, left, etc.) for smaller screens */
-      }
-    }
-
-
-
-
 
 
 /* CONTACT STYLING */
@@ -707,3 +684,50 @@ body {
   line-height: 2;   
   letter-spacing: 1px; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 592px){
+.img_holder{
+    margin-bottom: 50px;
+}
+
+}
+
+@media (max-width: 992px) {
+      .row.g-0.P-5 {
+        width: 100%; /* Or another appropriate value */
+      }
+
+
+      section .about-hero,
+      section .about-hero > img {
+        width: 100%;
+        height: auto; /* Adjust height as needed */
+      }
+
+      .about-hero .about-text {
+        width: 90%; /* Example: Use a percentage for width */
+        height: auto; /* Adjust height as needed */
+        /* Adjust position (top, left, etc.) for smaller screens */
+      }
+
+      .img_holder{
+    margin-bottom: 50px;
+}
+    }
